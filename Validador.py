@@ -1,4 +1,4 @@
-def main():
+def main_screen(): # Interface Gráfica e a leitura dos valores e eventos.
     from PySimpleGUI import PySimpleGUI as ms
     ms.theme('Reddit')
     layout = [
@@ -20,7 +20,7 @@ def main():
 
 
 
-def verify_cpf(n=''):
+def verify_cpf(n=''): # Função de validação do CPF
     n = n.replace('.', '')
     n = n.replace('-', '')
     if len(n) > 11 or len(n) < 11 or n == '':
