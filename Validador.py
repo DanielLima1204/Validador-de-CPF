@@ -67,4 +67,4 @@ def verify_cpf(n=''): # Função de validação do CPF
             return False
 
 
-main()
+main_screen()
