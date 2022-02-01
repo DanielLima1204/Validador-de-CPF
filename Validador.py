@@ -1,6 +1,6 @@
 def main_screen(): # Interface Gráfica e a leitura dos valores e eventos.
     from PySimpleGUI import PySimpleGUI as ms
-    ms.theme('Reddit')
+    ms.theme('Dark2')
     layout = [
         [ms.Text('CPF:', size=(5, 0)), ms.Input(key='cpf', size=(50, 10))],
         [ms.Button('Validar')]
